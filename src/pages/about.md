@@ -2,35 +2,12 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
+Cybersecurity has many facets: compliance, development, threat modeling, malware analysis... there's so much to learn! How could anyone possibly hope to keep up? 
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+vulNinja is a blog dedicated to reporting on cybersecurity vulnerabilities. Like ninja, we are in and out quickly-- discussing only what need be. Practicioners, developers, and everyday people interested in cyber will benefit from our not-overly-technical approach. vulNinja is researched and written by [Robert James](https://www.linkedin.com/in/rjcyber/), a Cyber Systems Engineer and Vulnerability Management team leader based in Huntsville, AL.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+This content is designed to lift the jargon veil (can I trademark that?) and translate technical concepts into easier-to-understand content. The goal: raise cyber awareness and understanding so we can all be safe and secure.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
