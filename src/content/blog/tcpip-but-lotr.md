@@ -11,7 +11,6 @@ layout: "../../layouts/BlogPost.astro"
 
 ## Overview
 
-One of the most common pain points you will hear on a cyber team goes something like this:
-> Managers just don't get it! 
+
 
 ## Why Vulnerabilities Matter

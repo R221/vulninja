@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
         </div>
         <div style="display: flex; justify-content: space-between; align-items: baseline; padding-top: -2rem;">
           <p style="font-size: 32px">${link}</p>
-          <img src="src\assets\robertjames.jpg" width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQHRL7c91nv6Jg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730068657096?e=1735776000&v=beta&t=CvCcqIaWAhm-NaGNkw4DlX0gw7knD8REyQQck-xe61w" width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
   </div>
   `);
 
