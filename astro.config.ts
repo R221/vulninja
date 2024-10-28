@@ -5,6 +5,7 @@ import UnoCSS from 'unocss/astro';
 export default defineConfig({
   // used to generate images
   site: 'https://vul.ninja',
+  output: 'static',
 
   trailingSlash: 'ignore',
   integrations: [sitemap(), UnoCSS({ injectReset: true })],
