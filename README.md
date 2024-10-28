@@ -53,8 +53,7 @@ To generate the sitemap, you don't need to do anything. It's automatically gener
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://r221.github.io',
-  base: 'vulninja',
+  site: 'https://R221.github.io',
 });
 ```
 
