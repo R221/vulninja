@@ -1,7 +1,7 @@
 ---
 title: TCP/IP Protocols, But Make it LOTR
 author: Robert James
-pubDate: 2023-02-19 18:37
+pubDate: 2024-10-19 18:37
 tags:
   - networking
 description: Let's try to make this more interesting. We can all get on board with this, right?
