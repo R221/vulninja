@@ -7,7 +7,7 @@ tags:
   - incident response
   - star wars
 description: It's almost like Palpatine wanted the Rebels to steal the plans...
-imgUrl: '../../assets/Palpatine_vulninja.jpg'
+imgUrl: '../../assets/Palpatine_vulninja'
 layout: "../../layouts/BlogPost.astro"
 ---
 
