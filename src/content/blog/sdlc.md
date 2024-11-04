@@ -1,11 +1,11 @@
 ---
-title: Software Development Life Cycle Best Practices
+title: A Secure Software Development Life Could Have Saved the Death Star and the Empire
 author: Robert James
-pubDate: 2024-10-02 19:15
+pubDate: 2024-10-15 20:00
 tags:
   - software development
   - security
-description: We hear this term thrown around in the cyber world- but what does it really mean?
+description: And people say DevSecOps is just a buzzword!
 imgUrl: '../../assets/cisa.jpg'
 layout: "../../layouts/BlogPost.astro"
 ---
