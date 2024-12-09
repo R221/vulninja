@@ -33,7 +33,7 @@ There are four high level steps in threat modeling:
 1. Scope the work
 2. Determine threats
 3. Determine countermeasures and mitigation
-4. Assess the work
+4. Assess the work 
 
 So let's say the Wizard's plan of having Elphaba being his evil sidekick is the application. Ironically, the wizard did a countermeasure/mitigation in place: the sorcery professor (what was her name? Ah who cares) although it's unclear whether he planned for her being there or she just showed up... but I digress.
 
@@ -41,4 +41,4 @@ So let's say the Wizard's plan of having Elphaba being his evil sidekick is the 
 
 1. Scope the work
 
-This is probably  
+This is probably the part the wizard did best. This step focuses on 
