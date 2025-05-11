@@ -31,7 +31,7 @@ export const GET: APIRoute = async ({ params, props }) => {
           <div style="display: flex; flex-direction: column; gap: 1rem;">
             <h1 style="font-size: 40px; font-weight: 700; margin: 0; color: #555;">${title}</h1>
           </div>
-          <img src="C:\Users\rcjam\adorable-aperture\src\assets\robertjames.jpg" width="160" height="160" style="border: 4px solid black; border-radius: 0.75rem; object-fit: cover;" />
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQFyus19LFsC5w/profile-displayphoto-shrink_800_800/B4EZQOi3N1HgAc-/0/1735410808737?e=1752710400&v=beta&t=KMocgwps2vPZcdHwqfz1U69jOnj6LBSq52lT7OaQmvY" width="160" height="160" style="border: 4px solid black; border-radius: 0.75rem; object-fit: cover;" />
         </div>
         <p style="font-size: 26px; color: #333; line-height: 1.4; margin: 0;">${description}</p>
       </div>
