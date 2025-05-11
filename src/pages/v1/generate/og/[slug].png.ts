@@ -25,22 +25,18 @@ export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const description = props.description ?? null;
   const html = toReactElement(`
-  <div style="background-color: white; display: flex; flex-direction: column; height: 100%; padding: 3rem; width: 100%">
-    <div style="display:flex; height: 100%; width: 100%; background-color: white; border: 6px solid black; border-radius: 0.5rem; padding: 2rem; filter: drop-shadow(6px 6px 0 rgb(0 0 0 / 1));">
-      <div style="display: flex; flex-direction: column; justify-content: space-between; width: 100%; filter: drop-shadow()">
-        <div style="display: flex; justify-content: space-between;">
-          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-            <p style="font-size: 48px;">Brutal theme for Astro</p>
-            <p style="font-size: 38px;">${title}</p>
+    <div style="background-color: #f5f5f5; display: flex; align-items: center; justify-content: center; height: 100%; padding: 3rem; width: 100%; font-family: sans-serif;">
+      <div style="display:flex; flex-direction: column; background-color: white; border: 6px solid black; border-radius: 1rem; padding: 2.5rem; width: 100%; max-width: 1200px; box-shadow: 8px 8px 0 #000;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <h1 style="font-size: 52px; font-weight: 900; margin: 0; color: #111;">vul.ninja</h1>
+            <h2 style="font-size: 40px; font-weight: 700; margin: 0; color: #555;">${title}</h2>
           </div>
-          <img src="https://www.elian.codes/assets/img/elian.jpg" width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
+          <img src="C:\Users\rcjam\adorable-aperture\src\assets\robertjames.jpg" width="160" height="160" style="border: 4px solid black; border-radius: 0.75rem; object-fit: cover;" />
         </div>
-        <div style="display: flex;">
-          <p style="font-size: 24px;">${description}</p>
-        </div>
+        <p style="font-size: 26px; color: #333; line-height: 1.4; margin: 0;">${description}</p>
       </div>
     </div>
-  </div>
   `);
 
   const svg = await satori(html, {
