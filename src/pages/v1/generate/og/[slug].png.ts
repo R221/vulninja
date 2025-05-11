@@ -29,8 +29,7 @@ export const GET: APIRoute = async ({ params, props }) => {
       <div style="display:flex; flex-direction: column; background-color: white; border: 6px solid black; border-radius: 1rem; padding: 2.5rem; width: 100%; max-width: 1200px; box-shadow: 8px 8px 0 #000;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
           <div style="display: flex; flex-direction: column; gap: 1rem;">
-            <h1 style="font-size: 52px; font-weight: 900; margin: 0; color: #111;">vul.ninja</h1>
-            <h2 style="font-size: 40px; font-weight: 700; margin: 0; color: #555;">${title}</h2>
+            <h1 style="font-size: 40px; font-weight: 700; margin: 0; color: #555;">${title}</h1>
           </div>
           <img src="C:\Users\rcjam\adorable-aperture\src\assets\robertjames.jpg" width="160" height="160" style="border: 4px solid black; border-radius: 0.75rem; object-fit: cover;" />
         </div>
